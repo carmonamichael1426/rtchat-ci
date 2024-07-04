@@ -60,7 +60,7 @@ class Message extends CI_controller{
 		unset(
 			$_SESSION['uniqueid'],
 			$_SESSION['username'],
-			$_SESSION['image'],
+			$_SESSION['image']
 		);
 		echo base_url();
 	}
